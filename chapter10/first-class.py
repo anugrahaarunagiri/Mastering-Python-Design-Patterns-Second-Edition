@@ -17,7 +17,8 @@ class CreateFile:
         try:
             delete_file(self.path)
         except:
-            print('delete action not successful; file was probably already deleted.')
+            print('delete action not successful...')
+            print('... file was probably already deleted.')
 
 def delete_file(path):
     if verbose:
